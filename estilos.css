@@ -6,12 +6,15 @@ body{
 
 a, img{
     display: block;
+    margin: 2px;
     
 }
 
 img{
-    width: 50%;
+    height: 40%;
+    width: 30%;
     margin: auto;
+
 }
 
 h1{
