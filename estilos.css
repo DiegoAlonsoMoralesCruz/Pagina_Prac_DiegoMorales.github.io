@@ -1,0 +1,24 @@
+body{
+
+    background-color: beige;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode',Verdana, sans-serif;
+}
+
+a, img{
+    display: block;
+    
+}
+
+img{
+    width: 50%;
+    margin: auto;
+}
+
+h1{
+    color: red;
+    text-align: center;
+}
+
+p{
+    text-align: justify;
+}
