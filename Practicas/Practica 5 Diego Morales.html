@@ -12,14 +12,14 @@
     <form>
         <p>Nombre Completo: <input type="text" name="Nombre completo"></p>
   
-        <p>Correo Electronico: <input type="text"name="correo electronico"></p>
+        <p>Correo Electronico: <input type="email"name="email"></p>
    
         <p>Contraseña:  <input type="password" name="correo electronico"></p>
    
         <p>Genero:<br>
-            <input type="radio" option>Hombre<br>
-            <input type="radio" option>Genero<br>
-            <input type="radio" option>Otro<br>  
+            <input type="radio" name="Genero">Hombre<br>
+            <input type="radio" name="Genero">Genero<br>
+            <input type="radio" name="Genero">Otro<br>  
         </p>
 
         <p>Intereses:<br>
@@ -38,7 +38,10 @@
         </select></p>
    
         <p>Comentarios adicionales</p>
-        
+        <textarea rows="10" cols="50"></textarea>
+        <br>
+        <input type="submit" value="Enviar formulario">
+        <input type="reset" value="Reiniciar formulario">
 
     </form>
 
